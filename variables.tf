@@ -102,7 +102,7 @@ variable "create_redshift_subnet_route_table" {
   default     = false
 }
 
-variable "public_redshift" {
+variable "enable_public_redshift" {
   description = "Controls if redshift should have public routing table"
   default     = false
 }
